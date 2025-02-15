@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Assignment 3.1 Basic GUI and Exception Handling")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9b045b2e8d4150d5f6ba879c2eaf3f616978c5ea")]
 [assembly: System.Reflection.AssemblyProductAttribute("Assignment 3.1 Basic GUI and Exception Handling")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Assignment 3.1 Basic GUI and Exception Handling")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

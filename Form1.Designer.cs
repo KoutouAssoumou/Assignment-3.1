@@ -31,6 +31,7 @@
             label1 = new Label();
             textBox1 = new TextBox();
             button1 = new Button();
+            textBox2 = new TextBox();
             SuspendLayout();
             // 
             // label1
@@ -57,15 +58,23 @@
             button1.Name = "button1";
             button1.Size = new Size(195, 45);
             button1.TabIndex = 2;
-            button1.Text = "Verify";
+            button1.Text = "somme";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
+            // 
+            // textBox2
+            // 
+            textBox2.Location = new Point(262, 224);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(182, 23);
+            textBox2.TabIndex = 3;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(800, 500);
+            Controls.Add(textBox2);
             Controls.Add(button1);
             Controls.Add(textBox1);
             Controls.Add(label1);
@@ -80,5 +89,6 @@
         private Label label1;
         private TextBox textBox1;
         private Button button1;
+        private TextBox textBox2;
     }
 }
